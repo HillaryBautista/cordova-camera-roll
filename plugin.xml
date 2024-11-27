@@ -2,7 +2,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="cordova-plugin-cameraroll"
-    version="0.0.1">
+    version="0.2.1">
     <name>CameraRoll</name>
     <description>Fork Camera Roll Plugin</description>
     <keywords>cordova,camera,camera roll</keywords>
