@@ -1,5 +1,5 @@
 {
-  "name": "@HillaryBautista/cordova-plugin-camera-roll",
+  "name": "@hkbautistav/cordova-plugin-camera-roll",
   "version": "1.0.8",
   "cordova": {
     "id": "cordova-plugin-camera-roll",

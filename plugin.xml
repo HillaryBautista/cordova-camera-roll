@@ -40,7 +40,7 @@
        <framework src="MobileCoreServices.framework" />
      </platform>
 
-    <!--android -->
+    <!--android 
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="CameraRoll">
@@ -50,6 +50,6 @@
 
         <source-file src="src/android/IonicCameraRoll.java" target-dir="src/com/drifty/cordova/IonicCameraRoll" />
 
-    </platform>
+    </platform>-->
 
 </plugin>
