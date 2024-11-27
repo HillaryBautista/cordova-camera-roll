@@ -1,16 +1,15 @@
 {
-  "name": "cordova-plugin-camera-roll",
+  "name": "@HillaryBautista/cordova-plugin-camera-roll",
   "version": "1.0.8",
   "cordova": {
     "id": "cordova-plugin-camera-roll",
     "platforms": [
-      "ios",
-      "android"
+      "ios"
     ]
   },
-  "description": "Cordova CameraRoll Plugin",
-  "repository": "https://github.com/driftyco/cordova-plugin-camera-roll.git",
-  "issue": "https://github.com/driftyco/cordova-plugin-camera-roll/issues",
+  "description": "Cordova Camera Roll Plugin Ios - Fork by HillaryBautista",
+  "repository": "https://github.com/HillaryBautista/cordova-camera-roll",
+  "issue": "https://github.com/HillaryBautista/cordova-camera-roll/issues",
   "keywords": [
     "ionic",
     "cordova",
@@ -19,6 +18,6 @@
     "cordova-ios",
     "cordova-android"
   ],
-  "author": "Ionic",
-  "license": "Apache 2.0"
+  "author": "Fork by Hillary Bautista",
+  "license": "MIT"
 }
