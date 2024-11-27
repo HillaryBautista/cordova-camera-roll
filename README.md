@@ -10,7 +10,7 @@ With this plugin you can get a list of all photos and do whatever you want with 
 ## Installation
 
 ```sh
-cordova plugin add https://github.com/bamlab/cordova-camera-roll.git
+cordova plugin add @hkbautistav/cordova-plugin-camera-roll
 ```
 
 ## Usage

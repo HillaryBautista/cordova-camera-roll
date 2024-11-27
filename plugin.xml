@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+ <!--com.drifty.cordova.cameraroll-->
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="cordova-plugin-cameraroll"
+    id="cordova-plugin-camera-roll"
     version="0.2.1">
     <name>CameraRoll</name>
     <description>Fork Camera Roll Plugin</description>
