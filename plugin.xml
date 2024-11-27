@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="cordova-plugin-cameraroll-ios"
-    version="0.0.1">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.drifty.cordova.cameraroll"
+    version="0.2.1">
     <name>CameraRoll</name>
-    <description>Fork Camera Roll Plugin</description>
-    <keywords>cordova,camera,camera roll</keywords>
+    <description>Drifty Camera Roll Plugin</description>
     <license>MIT</license>
-    <repo>https://github.com/HillaryBautista/cordova-camera-roll</repo>
-    <issue>https://github.com/HillaryBautista/cordova-camera-roll/issues</issue>
-
-    <engines>
-        <engine name="cordova" version=">=9.0.0"/>
-    </engines>
-
-    <asset src="www/CameraRoll.js" target="js/CameraRoll.js"/>
+    <keywords>cordova,camera,camera roll</keywords>
 
     <js-module src="www/CameraRoll.js" name="CameraRoll">
         <clobbers target="CameraRoll" />
@@ -40,7 +33,7 @@
        <framework src="MobileCoreServices.framework" />
      </platform>
 
-    <!--android
+    <!--android -->
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="CameraRoll">
@@ -50,6 +43,6 @@
 
         <source-file src="src/android/IonicCameraRoll.java" target-dir="src/com/drifty/cordova/IonicCameraRoll" />
 
-    </platform>-->
+    </platform>
 
 </plugin>
